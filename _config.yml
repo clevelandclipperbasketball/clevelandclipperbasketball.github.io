@@ -1,3 +1,51 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+title: "Youth Basketball Association"
+description: "Official website of the Youth Basketball Association"
+url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL or custom domain
+baseurl: ""  # Leave this empty unless your site is in a subdirectory
+
+# Author settings
+author:
+  name: "Your Name or Association Name"
+  email: "contact@example.com"
+
+# Theme settings
+theme: jekyll-theme-slate  # You can choose any supported theme
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Include additional files
+include:
+  - _pages
+
+# Navigation links (if supported by the theme)
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About Us"
+    url: "/about/"
+  - title: "Teams"
+    url: "/teams/"
+  - title: "Schedule"
+    url: "/schedule/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social media usernames (if supported by the theme)
+social:
+  twitter: "your_twitter_username"
+  facebook: "your_facebook_page"
+  instagram: "your_instagram_username"
+
